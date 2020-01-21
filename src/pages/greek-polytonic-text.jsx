@@ -2,6 +2,7 @@ import React from "react"
 
 const preStyles = {
   fontFamily: "'GFS Neohellenic', Arial, sans-serif",
+  fontSize: "1rem",
   backgroundColor: "transparent",
   marginBottom: "calc(var(--rhythm) / 2)",
   padding: 0,
