@@ -3,9 +3,9 @@
 }
 :root {
   font-family: "GFS Didot", serif;
-  font-size: 23px;
+  font-size: 20.6px;
   line-height: 1.4;
-  --rhythm: calc(23px * 1.4);
+  --rhythm: calc(20.6px * 1.4);
 }
 body {
   margin: 0;
