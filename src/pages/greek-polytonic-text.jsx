@@ -1,7 +1,7 @@
 import React from "react"
 
 const preStyles = {
-  fontFamily: "'Source Sans Pro', Arial, sans-serif",
+  fontFamily: "'GFS Neohellenic', Arial, sans-serif",
   backgroundColor: "transparent",
   marginBottom: "calc(var(--rhythm) / 2)",
   padding: 0,
@@ -10,12 +10,8 @@ const preStyles = {
 export default () => (
   <main>
     <h1>Greek polytonic text</h1>
-    <p>This page uses the following fonts:</p>
+    {/* <p>This page uses the following fonts:</p>
     <ul>
-      {/* <li>
-        <strong>Headings:</strong> SourceCodePro-Bold-latin.woff2
-        <span className="small-caps">16.9KB</span>
-      </li> */}
       <li>
         <strong>Heading + Body:</strong> SourceSansPro-Bold-latin.woff2{" "}
         <span className="small-caps">21.2KB</span>
@@ -39,9 +35,6 @@ export default () => (
     </ul>
     <p>
       The total size is <span className="small-caps">70.7KB</span>
-    </p>
-    {/* <p>
-      The total size is <span className="small-caps">75.1KB</span>
     </p> */}
     <h2
       className="small-caps"
