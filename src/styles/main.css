@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "GFS Neohellenic", sans-serif;
-  font-size: 21px;
-  line-height: 1.25;
-  --rhythm: calc(21px * 1.25);
+  font-family: "GFS Artemisia", serif;
+  font-size: 18px;
+  line-height: 1.45;
+  --rhythm: calc(18px * 1.45);
 }
 body {
   margin: 0;
@@ -65,7 +65,7 @@ code {
   font-weight: normal;
   /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;
-  font-size: 0.83em;
+  font-size: 0.92em;
 }
 pre {
   overflow-x: auto;
