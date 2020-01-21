@@ -4,6 +4,11 @@ import { Link } from "gatsby"
 export default () => (
   <main>
     <h1>Orbs, stars, and twilights</h1>
+    <p>
+      <strong>Note:</strong> The Latin characters are not displayed well on
+      small-medium sizes. The Greek characters look good even in smaller
+      sizes (the current size is 23px).
+    </p>
     <ul>
       <li>
         <Link to="/english-tech-post/">English tech post</Link>
