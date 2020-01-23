@@ -7,33 +7,25 @@ export default () => (
     </h1>
     <p>This page downloads the following fonts:</p>
     <ul>
-      {/* <li>
-        <strong>Headings:</strong> SourceCodePro-Bold-latin.woff2 -
-        <span className="small-caps">16.9KB</span>
-      </li> */}
-      {/* <li>
-        <strong>Code blocks:</strong> SourceCodePro-Regular-latin.woff2 -
-        <span className="small-caps">17KB</span>
-      </li> */}
       <li>
-        <strong>Body text:</strong> SourceSansPro-Regular-latin.woff2 -
-        <span className="small-caps">21.3KB</span>
+        <strong>Body text:</strong> FiraSans-Regular-latin.woff2 -
+        <span className="small-caps">28.7KB</span>
       </li>
       <li>
-        <strong>Body text:</strong> SourceSansPro-Regular-rest.woff2 -
-        <span className="small-caps">12.3KB</span>
+        <strong>Body text:</strong> FiraSans-Regular-rest.woff2 -
+        <span className="small-caps">18.5KB</span>
       </li>
       <li>
-        <strong>Body text:</strong> SourceSansPro-It-latin.woff2 -
-        <span className="small-caps">17.4KB</span>
+        <strong>Body text:</strong> FiraSans-Italic-latin.woff2 -
+        <span className="small-caps">29.7KB</span>
       </li>
       <li>
-        <strong>Heading + Body text:</strong> SourceSansPro-Bold-latin.woff2 -
-        <span className="small-caps">21.2KB</span>
+        <strong>Heading + Body text:</strong> FiraSans-Bold-latin.woff2 -
+        <span className="small-caps">30.2KB</span>
       </li>
     </ul>
     <p>
-      The total size is <span className="small-caps">72.2KB</span>
+      The total size is <span className="small-caps">107.1KB</span>
     </p>
     <h2>Introduction</h2>
     <p>

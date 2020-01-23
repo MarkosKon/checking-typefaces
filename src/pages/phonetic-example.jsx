@@ -10,33 +10,29 @@ export default () => (
         </a>
       </p>
       <ul>
-        {/* <li>
-          <strong>Headings:</strong> SourceCodePro-Bold-latin.woff2
-          <span className="small-caps">16.9KB</span>
-        </li> */}
         <li>
-          <strong>Headings + Body:</strong> SourceSansPro-Bold-latin.woff2
-          <span className="small-caps">21.2KB</span>
+          <strong>Headings + Body:</strong> FiraSans-Bold-latin.woff2{" "}
+          <span className="small-caps">30.2KB</span>
         </li>
         <li>
-          <strong>Body:</strong> SourceSansPro-Regular-greek.woff2
-          <span className="small-caps">9.1KB</span>
+          <strong>Body:</strong> FiraSans-Regular-greek.woff2{" "}
+          <span className="small-caps">16.1KB</span>
         </li>
         <li>
-          <strong>Body:</strong> SourceSansPro-Regular-phonetic.woff2
-          <span className="small-caps">9KB</span>
+          <strong>Body:</strong> FiraSans-Regular-phonetic.woff2{" "}
+          <span className="small-caps">17.4KB</span>
         </li>
         <li>
-          <strong>Body:</strong> SourceSansPro-Regular-latin.woff2
-          <span className="small-caps">21.3KB</span>
+          <strong>Body:</strong> FiraSans-Regular-latin.woff2{" "}
+          <span className="small-caps">28.7KB</span>
         </li>
         <li>
-          <strong>Body:</strong> SourceSansPro-Regular-rest.woff2
-          <span className="small-caps">12.3KB</span>
+          <strong>Body:</strong> FiraSans-Regular-rest.woff2{" "}
+          <span className="small-caps">18.5KB</span>
         </li>
       </ul>
       <p>
-        The total size is <span className="small-caps">72.8KB</span>
+        The total size is <span className="small-caps">110.9KB</span>
       </p>
       <h2>Brackets</h2>
       <p>

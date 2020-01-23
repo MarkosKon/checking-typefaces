@@ -1,4 +1,3 @@
 import "@affectionatedoor/opentype"
-import "@affectionatedoor/source-sans-subsets"
-// import "@affectionatedoor/source-sans-subsets/variable.css"
+import "@affectionatedoor/fira-sans-subsets"
 import "./src/styles/main.css"
