@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Reforma1969";
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/Reforma1969-Blanca.woff2") format("woff2"),
+    url("/fonts/Reforma1969-Blanca.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma1969";
+  font-display: swap;
+  font-weight: 300;
+  font-style: italic;
+  src: url("/fonts/Reforma1969-BlancaItalica.woff2") format("woff2"),
+    url("/fonts/Reforma1969-BlancaItalica.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma1969";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/Reforma1969-Gris.woff2") format("woff2"),
+    url("/fonts/Reforma1969-Gris.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma1969";
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("/fonts/Reforma1969-GrisItalica.woff2") format("woff2"),
+    url("/fonts/Reforma1969-GrisItalica.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma1969";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Reforma1969-Negra.woff2") format("woff2"),
+    url("/fonts/Reforma1969-Negra.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma1969";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Reforma1969-NegraItalica.woff2") format("woff2"),
+    url("/fonts/Reforma1969-NegraItalica.woff") format("woff");
+}

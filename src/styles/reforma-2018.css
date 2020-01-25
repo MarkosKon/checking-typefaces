@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Reforma2018";
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/Reforma2018-Blanca.woff2") format("woff2"),
+    url("/fonts/Reforma2018-Blanca.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma2018";
+  font-display: swap;
+  font-weight: 300;
+  font-style: italic;
+  src: url("/fonts/Reforma2018-BlancaItalica.woff2") format("woff2"),
+    url("/fonts/Reforma2018-BlancaItalica.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma2018";
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/Reforma2018-Gris.woff2") format("woff2"),
+    url("/fonts/Reforma2018-Gris.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma2018";
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("/fonts/Reforma2018-GrisItalica.woff2") format("woff2"),
+    url("/fonts/Reforma2018-GrisItalica.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma2018";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Reforma2018-Negra.woff2") format("woff2"),
+    url("/fonts/Reforma2018-Negra.woff") format("woff");
+}
+@font-face {
+  font-family: "Reforma2018";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Reforma2018-NegraItalica.woff2") format("woff2"),
+    url("/fonts/Reforma2018-NegraItalica.woff") format("woff");
+}

@@ -1,3 +1,6 @@
 import "@affectionatedoor/opentype"
 import "./src/styles/gfs-neohellenic.css"
+import "./src/styles/reforma-2018.css"
+import "./src/styles/reforma-1969.css"
+import "./src/styles/reforma-1918.css"
 import "./src/styles/main.css"
