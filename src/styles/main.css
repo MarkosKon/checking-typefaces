@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "GFS Bodoni", sans-serif;
-  font-size: 18px;
+  font-family: "Syne", sans-serif;
+  font-size: 20px;
   line-height: 1.45;
-  --rhythm: calc(18px * 1.45);
+  --rhythm: calc(20px * 1.45);
 }
 body {
   margin: 0;
@@ -61,7 +61,7 @@ ol {
 }
 pre,
 code {
-  font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
+  font-family: "Syne Mono", "Consolas", "Menlo", "Courier New", Courier, monospace;
   font-weight: normal;
   /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;

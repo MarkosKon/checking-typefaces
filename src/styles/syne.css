@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Syne";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/TTF_Syne-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Syne";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/TTF_Syne-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Syne";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/TTF_Syne-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Syne";
+  font-weight: 900;
+  font-style: normal;
+  src: url("/fonts/TTF_Syne-Extra.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Syne Mono";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/TTF_Syne-Mono.ttf") format("truetype");
+}
