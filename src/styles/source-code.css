@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Source Code Pro";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/SourceCodePro-Regular.ttf") format("truetype");
+}
