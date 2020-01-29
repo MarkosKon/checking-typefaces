@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Zilla Slab";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/ZillaSlab-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/ZillaSlab-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/ZillaSlab-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/ZillaSlab-BoldItalic.ttf") format("truetype");
+}
