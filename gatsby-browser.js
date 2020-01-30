@@ -1,3 +1,3 @@
 import "@affectionatedoor/opentype"
-import "./src/styles/gfs-didot.css"
+import "./src/styles/lora-gfs-didot.css"
 import "./src/styles/main.css"

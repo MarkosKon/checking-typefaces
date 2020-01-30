@@ -1,7 +1,7 @@
 import React from "react"
 
 const preStyles = {
-  fontFamily: "'GFS Didot', serif",
+  fontFamily: "'Lora GFS Didot', serif",
   fontSize: "1rem",
   backgroundColor: "transparent",
   marginBottom: "calc(var(--rhythm) / 2)",
@@ -11,37 +11,10 @@ const preStyles = {
 export default () => (
   <main>
     <h1>Greek polytonic text</h1>
-    {/* <p>This page uses the following fonts:</p>
-    <ul>
-      <li>
-        <strong>Heading + Body:</strong> SourceSansPro-Bold-latin.woff2{" "}
-        <span className="small-caps">21.2KB</span>
-      </li>
-      <li>
-        <strong>Body:</strong> SourceSansPro-Regular-greek-extended.woff2{" "}
-        <span className="small-caps">6.8KB</span>
-      </li>
-      <li>
-        <strong>Body:</strong> SourceSansPro-Regular-greek.woff2{" "}
-        <span className="small-caps">9.1KB</span>
-      </li>
-      <li>
-        <strong>Body:</strong> SourceSansPro-Regular-latin.woff2{" "}
-        <span className="small-caps">21.3KB</span>
-      </li>
-      <li>
-        <strong>Body:</strong> SourceSansPro-Regular-rest.woff2{" "}
-        <span className="small-caps">12.3KB</span>
-      </li>
-    </ul>
-    <p>
-      The total size is <span className="small-caps">70.7KB</span>
-    </p> */}
     <h2
-      className="small-caps"
       style={{ fontSize: "1.5em", fontWeight: "normal" }}
     >
-      ΤΑ ΠΑΛΑΙΑ ΤΩΝ ΛΑΚΕΔΑΙΜΟΝΙΩΝ ΕΠΙΤΗΔΕΥΜΑΤΑ
+      ΤΑ ΠΑΛΑΙΑ ΤΩΝ ΛΑΚΕΔΑΙΜΟΝΙΩΝ ΕΠΙΤΗΔΕΥΜΑΤΑ
     </h2>
     <ol>
       <li>
