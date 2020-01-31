@@ -16,7 +16,7 @@ export default () => (
     </p>
     <p>
       Apparently we had reached a great height in the atmosphere (
-      <span className="fraction">1/2</span> ), for the{" "}
+      <span className="fraction">1/2</span>), for the{" "}
       <span className="small-caps">sky</span> was a dead black, and the stars
       had ceased to twinkle. By the same illusion which lifts the horizon
       <sup>1</sup>
