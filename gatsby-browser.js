@@ -1,5 +1,4 @@
 import "@affectionatedoor/opentype"
-import "./src/styles/source-serif.css"
-import "./src/styles/source-code.css"
-import "./src/styles/source-serif-variable.css"
+import "./src/styles/ibm-plex-sans.css"
+import "./src/styles/ibm-plex-mono.css"
 import "./src/styles/main.css"

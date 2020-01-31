@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "Source Serif Pro", serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 20px;
   line-height: 1.4;
   --rhythm: calc(20px * 1.4);
@@ -31,12 +31,10 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  /* border-bottom: 5px solid black; */
 }
 h1,
 h2,
 h3 {
-  /* font-family: "Source Code Pro", monospace; */
   font-weight: 700;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
@@ -61,7 +59,7 @@ ol {
 }
 pre,
 code {
-  font-family: "Source Code Pro", "Consolas", "Menlo", "Courier New", Courier,
+  font-family: "IBM Plex Mono", "Consolas", "Menlo", "Courier New", Courier,
     monospace;
   font-weight: normal;
   border-radius: 3px;
@@ -78,7 +76,6 @@ pre {
   overflow-x: auto;
 }
 table {
-  /* font-size: 16px; */
   margin: 0 0 var(--rhythm);
   border-collapse: collapse;
   border: 2px solid #544c41;
