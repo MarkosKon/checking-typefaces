@@ -25,9 +25,8 @@ export default () => (
       <sup>1</sup>
       of the sea to the level of the spectator on a hillside, the sable cloud
       beneath was dished out, and the car seemed to float in the middle
-      <sub>2</sub>
-      of an immense dark sphere, whose upper half was strewn with silver. The
-      efficient office for ligature testing.
+      <sub>2</sub> of an immense dark sphere, whose upper half was strewn with
+      silver. The efficient office for ligature testing.
     </p>
     <h2>Velocity</h2>
     <p>
