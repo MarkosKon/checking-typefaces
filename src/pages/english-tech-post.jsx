@@ -5,28 +5,6 @@ export default () => (
     <h1 style={{ marginBottom: "calc(var(--rhythm) * 2)" }}>
       Reveal animations on scroll with react-spring
     </h1>
-    {/* <p>This page downloads the following fonts:</p>
-    <ul>
-      <li>
-        <strong>Body text:</strong> SourceSansPro-Regular-latin.woff2 -
-        <span className="small-caps">21.3KB</span>
-      </li>
-      <li>
-        <strong>Body text:</strong> SourceSansPro-Regular-rest.woff2 -
-        <span className="small-caps">12.3KB</span>
-      </li>
-      <li>
-        <strong>Body text:</strong> SourceSansPro-It-latin.woff2 -
-        <span className="small-caps">17.4KB</span>
-      </li>
-      <li>
-        <strong>Heading + Body text:</strong> SourceSansPro-Bold-latin.woff2 -
-        <span className="small-caps">21.2KB</span>
-      </li>
-    </ul>
-    <p>
-      The total size is <span className="small-caps">72.2KB</span>
-    </p> */}
     <h2>Introduction</h2>
     <p>
       In this post, you’ll use the{" "}

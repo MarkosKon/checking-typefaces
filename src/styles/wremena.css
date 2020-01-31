@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Wremena";
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+  src: url("/fonts/WremenaLight.woff") format("woff");
+  unicode-range: U+00-36F, U+400-E00A;
+}
+@font-face {
+  font-family: "Wremena";
+  font-display: swap;
+  font-weight: 300;
+  font-style: italic;
+  src: local("Non existent");
+}
+@font-face {
+  font-family: "Wremena";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/WremenaRegular.woff") format("woff");
+  unicode-range: U+00-36F, U+400-E00A;
+}
+@font-face {
+  font-family: "Wremena";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  /* Not working, only a non existent forces
+  the browser to use the italics of Times New Roman */
+  /* src: local("Times New Roman"); */
+  src: local("Non existent");
+}
+@font-face {
+  font-family: "Wremena";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/WremenaBold.woff") format("woff");
+  unicode-range: U+00-36F, U+400-E00A;
+}
+@font-face {
+  font-family: "Wremena";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: local("Non existent");
+}
