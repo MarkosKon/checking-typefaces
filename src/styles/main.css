@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "IBM Plex Serif", serif;
+  font-family: "IBM Plex", serif;
   font-size: 20px;
   line-height: 1.45;
   --rhythm: calc(20px * 1.45);
