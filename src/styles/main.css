@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "Syne", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 20px;
   line-height: 1.45;
   --rhythm: calc(20px * 1.45);
@@ -31,12 +31,10 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  /* border-bottom: 5px solid black; */
 }
 h1,
 h2,
 h3 {
-  /* font-family: "Source Code Pro", monospace; */
   font-weight: 700;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
@@ -61,9 +59,8 @@ ol {
 }
 pre,
 code {
-  font-family: "Syne Mono", "Consolas", "Menlo", "Courier New", Courier, monospace;
+  font-family: inherit;
   font-weight: normal;
-  /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;
 }
 pre {
@@ -78,7 +75,6 @@ pre {
   overflow-x: auto;
 }
 table {
-  /* font-size: 16px; */
   margin: 0 0 var(--rhythm);
   border-collapse: collapse;
   border: 2px solid #544c41;

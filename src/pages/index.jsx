@@ -8,15 +8,6 @@ export default () => (
       <li>
         <Link to="/english-tech-post/">English tech post</Link>
       </li>
-      <li>
-        <Link to="/greek-tech-post/">Greek tech post</Link>
-      </li>
-      <li>
-        <Link to="/greek-polytonic-text/">Greek polytonic text</Link>
-      </li>
-      <li>
-        <Link to="/phonetic-example/">Phonetic text</Link>
-      </li>
     </ul>
     <p className="intro">
       A peep at some distant orb has power to raise and purify our thoughts like
@@ -59,17 +50,6 @@ export default () => (
         education.
       </li>
     </ul>
-    <h3>H ευημερία του Ριντάουτ</h3>
-    <p>
-      {" "}
-      Ήταν ένα υπέροχο ταξίδι και μέσω αυτού γνώρισα και αγάπησα πολλούς που δεν
-      θα ξαναδώ ποτέ. Γιατί η ζωή δεν είναι απέραντη και ο καθένας πρέπει να
-      εκπληρώσει το χρέος του για την ασφάλεια και την ευημερία του Ριντάουτ.
-    </p>
-    <blockquote>
-      Παρόλα αυτά, ταξιδεύαμε πολύ, πάντα. Αλλά υπήρχαν τόσα εκατομμύρια και
-      τόσο λίγα χρόνια.
-    </blockquote>
     <ol>
       <li>
         I shall see the face of Mars, anyhow, and that will be a rare
