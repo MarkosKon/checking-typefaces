@@ -1,5 +1,5 @@
-import "@affectionatedoor/opentype"
-import "./src/styles/source-serif.css"
+import "@affectionatedoor/opentype/css-variables.css"
+import "@affectionatedoor/source-serif-subsets"
+import "@affectionatedoor/source-serif-subsets/variable.css"
 import "./src/styles/source-code.css"
-import "./src/styles/source-serif-variable.css"
 import "./src/styles/main.css"
