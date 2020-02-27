@@ -5,48 +5,6 @@ export default () => (
     <h1 style={{ marginBottom: "calc(var(--rhythm) * 2)" }}>
       Reveal animations στο scroll με react-spring
     </h1>
-    <p>This page downloads the following fonts:</p>
-    <ul>
-      {/* <li>
-        <strong>Headings:</strong> SourceCodePro-Bold-latin.woff2 -
-        <span className="small-caps">16.9KB</span>
-      </li> */}
-      {/* <li>
-        <strong>Headings:</strong> SourceCodePro-Bold-greek.woff2 -
-        <span className="small-caps">7.3KB</span>
-      </li> */}
-      {/* <li>
-        <strong>Code blocks:</strong> SourceCodePro-Regular-latin.woff2 -
-        <span className="small-caps">17KB</span>
-      </li> */}
-      <li>
-        <strong>Heading + Body text:</strong> SourceSansPro-Bold-latin.woff2 -
-        <span className="small-caps">21.2KB</span>
-      </li>
-      <li>
-        <strong>Heading + Body text:</strong> SourceSansPro-Bold-greek.woff2 -
-        <span className="small-caps">9KB</span>
-      </li>
-      <li>
-        <strong>Body text:</strong> SourceSansPro-Regular-latin.woff2 -
-        <span className="small-caps">21.3KB</span>
-      </li>
-      <li>
-        <strong>Body text:</strong> SourceSansPro-Regular-greek.woff2 -
-        <span className="small-caps">9.1KB</span>
-      </li>
-      <li>
-        <strong>Body text:</strong> SourceSansPro-It-latin.woff2 -
-        <span className="small-caps">17.4KB</span>
-      </li>
-      <li>
-        <strong>Body text:</strong> SourceSansPro-It-greek.woff2 -
-        <span className="small-caps">7.6KB</span>
-      </li>
-    </ul>
-    <p>
-      The total size is <span className="small-caps">85.6KB</span>
-    </p>
     <h2>Εισαγωγή</h2>
     <p>
       Σε αυτό το post, θα χρησιμοποιήσoυμε την βιβλιοθήκη{" "}
@@ -124,7 +82,7 @@ const App = () => {
             )}
         </VisibilitySensor>
         </div>
-    <<div>
+    </div>
     );
 };
 

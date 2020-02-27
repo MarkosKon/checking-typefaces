@@ -9,38 +9,9 @@ export default () => (
           https://en.wikipedia.org/wiki/Help:IPA
         </a>
       </p>
-      <ul>
-        {/* <li>
-          <strong>Headings:</strong> SourceCodePro-Bold-latin.woff2
-          <span className="small-caps">16.9KB</span>
-        </li> */}
-        <li>
-          <strong>Headings + Body:</strong> SourceSansPro-Bold-latin.woff2
-          <span className="small-caps">21.2KB</span>
-        </li>
-        <li>
-          <strong>Body:</strong> SourceSansPro-Regular-greek.woff2
-          <span className="small-caps">9.1KB</span>
-        </li>
-        <li>
-          <strong>Body:</strong> SourceSansPro-Regular-phonetic.woff2
-          <span className="small-caps">9KB</span>
-        </li>
-        <li>
-          <strong>Body:</strong> SourceSansPro-Regular-latin.woff2
-          <span className="small-caps">21.3KB</span>
-        </li>
-        <li>
-          <strong>Body:</strong> SourceSansPro-Regular-rest.woff2
-          <span className="small-caps">12.3KB</span>
-        </li>
-      </ul>
-      <p>
-        The total size is <span className="small-caps">72.8KB</span>
-      </p>
       <h2>Brackets</h2>
       <p>
-        Two types of brackets are commonly used to enclose transcriptions in the
+        Two types of brackets are commonly used to enclose transcriptions in the{" "}
         <abbr>IPA</abbr>:
       </p>
       <ul>

@@ -17,9 +17,6 @@ export default () => (
       <li>
         <Link to="/phonetic-example/">Phonetic text</Link>
       </li>
-      <li>
-        <Link to="/variable-fonts/">Variable fonts</Link>
-      </li>
     </ul>
     <p className="intro">
       A peep at some distant orb has power to raise and purify our thoughts like
@@ -28,15 +25,14 @@ export default () => (
     </p>
     <p>
       Apparently we had reached a great height in the atmosphere (
-      <span className="fraction">1/2</span> ), for the{" "}
+      <span className="fraction">1/2</span>), for the{" "}
       <span className="small-caps">sky</span> was a dead black, and the stars
       had ceased to twinkle. By the same illusion which lifts the horizon
-      <sup>1</sup>
-      of the sea to the level of the spectator on a hillside, the sable cloud
-      beneath was dished out, and the car seemed to float in the middle
-      <sub>2</sub>
-      of an immense dark sphere, whose upper half was strewn with silver. The
-      efficient office for ligature testing.
+      <sup>1</sup> of the sea to the level of the spectator on a hillside, the
+      sable cloud beneath was dished out, and the car seemed to float in the
+      middle
+      <sub>2</sub> of an immense dark sphere, whose upper half was strewn with
+      silver. The efficient office for ligature testing.
     </p>
     <h2>Velocity</h2>
     <p>

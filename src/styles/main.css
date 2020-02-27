@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Hasklig", Consolas, monospace;
   font-size: 20px;
-  line-height: 1.45;
-  --rhythm: calc(20px * 1.45);
+  line-height: 1.4;
+  word-spacing: -0.05em;
+  --rhythm: calc(20px * 1.4);
 }
 body {
   margin: 0;
@@ -21,8 +22,9 @@ p {
 }
 p.intro {
   font-size: 1.5em;
-  line-height: 1.25;
+  line-height: 1.2;
   font-style: italic;
+  word-spacing: -0.2em;
 }
 h1,
 h2,
@@ -31,12 +33,11 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  /* border-bottom: 5px solid black; */
+  word-spacing: -0.3em;
 }
 h1,
 h2,
 h3 {
-  /* font-family: "Source Code Pro", monospace; */
   font-weight: 700;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
@@ -61,11 +62,9 @@ ol {
 }
 pre,
 code {
-  font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
+  font-family: "Hasklig", Consolas, monospace;
   font-weight: normal;
-  /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;
-  /* font-size: 16px; */
 }
 pre {
   overflow-x: auto;
