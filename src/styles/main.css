@@ -3,6 +3,10 @@
 }
 :root {
   font-family: "JetBrains Mono", sans-serif;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
   font-size: 16px;
   line-height: 1.45;
   --rhythm: calc(16px * 1.45);
@@ -76,7 +80,6 @@ pre {
   overflow-x: auto;
 }
 table {
-  /* font-size: 16px; */
   margin: 0 0 var(--rhythm);
   border-collapse: collapse;
   border: 2px solid #544c41;
