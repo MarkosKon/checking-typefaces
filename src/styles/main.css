@@ -8,8 +8,8 @@
   --rhythm: calc(20px * 1.45);
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "ss02";
-  font-feature-settings: "kern", "liga", "clig", "calt", "ss02";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "ss02", "ss05";
+  font-feature-settings: "kern", "liga", "clig", "calt", "ss02", "ss05";
 }
 body {
   margin: 0;
@@ -25,9 +25,10 @@ p {
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
   font-variant-numeric: oldstyle-nums proportional-nums;
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "ss02";
-  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "ss02";
-
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum",
+    "ss02", "ss05";
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "ss02",
+    "ss05";
 }
 p.intro {
   font-size: 1.5em;
@@ -69,13 +70,13 @@ ol {
 }
 pre,
 code {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   font-weight: normal;
   border-radius: 3px;
   font-kerning: normal;
-  font-variant-ligatures: common-ligatures contextual;
-  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-  font-feature-settings: "kern", "liga", "clig", "calt";
+  font-variant-ligatures: contextual;
+  -webkit-font-feature-settings: "kern", "liga" 0, "clig" 0, "calt";
+  font-feature-settings: "kern", "liga" 0, "clig" 0, "calt";
 }
 pre {
   overflow-x: auto;
