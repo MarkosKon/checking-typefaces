@@ -2,15 +2,10 @@
 # yarn lockfile v1
 
 
-"@affectionatedoor/opentype@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@affectionatedoor/opentype/-/opentype-1.0.1.tgz#f54f8c8e43fba322641a516c60acdae5f031a4b8"
-  integrity sha512-MU0u8lg+CSqxFb6PcA/ngSNz63qvJgRaCHYRrTC3N5HOrtGQDbY0vDWbydzJjtDby/P/nztELjhE64HDZgx94A==
-
-"@affectionatedoor/source-sans-subsets@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@affectionatedoor/source-sans-subsets/-/source-sans-subsets-1.0.0.tgz#3db99901791f7369d6cd945f71e3da979a84d332"
-  integrity sha512-SdadRfAKUgEFb0ET/S2fubXA3yyTDQ8LHllXX8sFrQMeEMCdGizeE+U1JbM8YxwNXb0CkrBw7QlTkiPfyrbmBg==
+"@affectionatedoor/opentype@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@affectionatedoor/opentype/-/opentype-1.2.0.tgz#70b4815f07fc7bb20498eb81cc01a37675c24fa0"
+  integrity sha512-64j25fUP6kN72sl0X1S0LOdgdRNtQgXJRF7qgg27Dw/xykaaLEYoixTt+/ACVHNv+DMeNcePMqfGl7S7/V7gxg==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5":
   version "7.5.5"
