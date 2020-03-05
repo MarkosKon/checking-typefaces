@@ -1,0 +1,66 @@
+/* Normal width */
+@font-face {
+  font-family: "Asap";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("/fonts/Asap-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Asap";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("/fonts/Asap-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Asap";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("/fonts/Asap-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Asap";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  src: url("/fonts/Asap-BoldItalic.ttf") format("truetype");
+}
+/* Condensed */
+@font-face {
+  font-family: "Asap";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: condensed;
+  src: url("/fonts/AsapCondensed-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Asap";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: condensed;
+  src: url("/fonts/AsapCondensed-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Asap";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: condensed;
+  src: url("/fonts/AsapCondensed-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Asap";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: condensed;
+  src: url("/fonts/AsapCondensed-BoldItalic.ttf") format("truetype");
+}
