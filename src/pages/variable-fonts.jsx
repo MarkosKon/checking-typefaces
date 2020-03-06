@@ -6,7 +6,7 @@ export default () => {
   const [bodySize, setBodySize] = useState(20)
   const [bodyWeight, setBodyWeight] = useState(400)
   return (
-    <div style={{ fontFamily: "'Source Sans Variable', sans-serif" }}>
+    <div>
       <header
         style={{
           maxWidth: "calc(var(--rhythm) * 24)",

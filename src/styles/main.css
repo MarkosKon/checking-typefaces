@@ -2,10 +2,22 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Inter Variable", sans-serif;
   font-size: 20px;
-  line-height: 1.45;
-  --rhythm: calc(20px * 1.45);
+  /* See https://rsms.me/inter/dynmetrics/ */
+  letter-spacing: -0.017em;
+  line-height: 1.4;
+  --rhythm: calc(20px * 1.4);
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  /* 
+    I want a distinction between lower case l and uppercase I, but
+    I didn't like neither of the alternatives cv05 (lower case l with tail), 
+    cv08(upper case i with serif).  cv10 is G with spur, and ss01 is 
+    different numbers.
+  */
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "cv10", "ss01";
+  font-feature-settings: "kern", "liga", "clig", "calt", "cv10", "ss01";
 }
 body {
   margin: 0;
@@ -16,13 +28,28 @@ main {
   margin: 0 auto;
   padding: calc(var(--rhythm) / 2);
 }
-p {
+p,
+.body-text {
   margin: 0 0 var(--rhythm);
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum",
+    "cv10", "ss01";
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum", "cv10",
+    "ss01";
 }
 p.intro {
   font-size: 1.5em;
   line-height: 1.25;
-  font-style: italic;
+  letter-spacing: -0.021em;
+}
+p.intro,
+em,
+i {
+  font-style: oblique -10deg;
+  /* font-variation-settings: "slnt" -10; */
+  font-synthesis: none;
 }
 h1,
 h2,
@@ -31,12 +58,10 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  /* border-bottom: 5px solid black; */
 }
 h1,
 h2,
 h3 {
-  /* font-family: "Source Code Pro", monospace; */
   font-weight: 700;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
@@ -61,11 +86,10 @@ ol {
 }
 pre,
 code {
+  /* At https://rsms.me/inter/ the authors uses IBM Plex Mono for code. */
   font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
   font-weight: normal;
-  /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;
-  /* font-size: 16px; */
 }
 pre {
   overflow-x: auto;
@@ -79,7 +103,6 @@ pre {
   overflow-x: auto;
 }
 table {
-  /* font-size: 16px; */
   margin: 0 0 var(--rhythm);
   border-collapse: collapse;
   border: 2px solid #544c41;
@@ -101,4 +124,14 @@ th {
 }
 caption {
   padding: calc(var(--rhythm) / 4) calc(var(--rhythm) / 2);
+}
+/* No small caps */
+abbr,
+.small-caps {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-variant-caps: normal;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
+  font-feature-settings: "kern", "liga", "clig", "calt", "onum", "pnum";
 }

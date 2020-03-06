@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Inter Variable";
+  font-display: swap;
+  font-weight: 100 900;
+  font-stretch: normal;
+  font-style: oblique -10deg 0deg;
+  src: url("/fonts/Inter.otf") format("truetype");
+}
