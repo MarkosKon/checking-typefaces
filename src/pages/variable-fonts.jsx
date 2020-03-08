@@ -2,98 +2,98 @@ import React, { useState } from "react"
 
 export default () => {
   const [headingSize, setHeadingSize] = useState(67)
-  const [headingWeight, setHeadingWeight] = useState(700)
+  const [headingWeight, setHeadingWeight] = useState(900)
   const [bodySize, setBodySize] = useState(20)
-  const [bodyWeight, setBodyWeight] = useState(400)
+  const [bodyWeight, setBodyWeight] = useState(270)
   return (
     <div>
-      <header
-        style={{
-          maxWidth: "calc(var(--rhythm) * 24)",
-          margin: "var(--rhythm) auto 0",
-        }}
-      >
-        <div
-          style={{
-            width: "max-content",
-            display: "flex",
-            flexDirection: "column",
-          }}
-        >
-          <label
-            style={{ display: "flex", alignItems: "center" }}
-            htmlFor="heading-size"
-          >
-            <strong>Heading size: </strong>
-            <input
-              style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
-              type="range"
-              name="heading-size"
-              id="heading-size"
-              min={16}
-              max={200}
-              step={1}
-              value={headingSize}
-              onChange={e => setHeadingSize(Number(e.target.value))}
-            />
-          </label>
-          <label
-            style={{ display: "flex", alignItems: "center" }}
-            htmlFor="heading-weight"
-          >
-            <strong>Heading weight: </strong>
-            <input
-              style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
-              type="range"
-              name="heading-weight"
-              id="heading-weight"
-              min={200}
-              max={900}
-              step={10}
-              value={headingWeight}
-              onChange={e => setHeadingWeight(Number(e.target.value))}
-            />
-          </label>
-          <label
-            style={{ display: "flex", alignItems: "center" }}
-            htmlFor="body-size"
-          >
-            <strong>Body size: </strong>
-            <input
-              style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
-              type="range"
-              name="body-size"
-              id="body-size"
-              min={12}
-              max={100}
-              step={1}
-              value={bodySize}
-              onChange={e => setBodySize(Number(e.target.value))}
-            />
-          </label>
-          <label
-            style={{ display: "flex", alignItems: "center" }}
-            htmlFor="body-weight"
-          >
-            <strong>Body weight: </strong>
-            <input
-              style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
-              type="range"
-              name="body-weight"
-              id="body-weight"
-              min={200}
-              max={900}
-              step={10}
-              value={bodyWeight}
-              onChange={e => setBodyWeight(Number(e.target.value))}
-            />
-          </label>
-        </div>
-      </header>
       <main>
         <h1 style={{ fontSize: `${headingSize}px`, fontWeight: headingWeight }}>
           <em>Variable</em> fonts example
         </h1>
+        <div
+          style={{
+            maxWidth: "calc(var(--rhythm) * 24)",
+            margin: "var(--rhythm) auto calc(var(--rhythm) * 2)",
+          }}
+        >
+          <div
+            style={{
+              width: "max-content",
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <label
+              style={{ display: "flex", alignItems: "center" }}
+              htmlFor="heading-size"
+            >
+              <strong>Heading size: </strong>
+              <input
+                style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
+                type="range"
+                name="heading-size"
+                id="heading-size"
+                min={16}
+                max={200}
+                step={1}
+                value={headingSize}
+                onChange={e => setHeadingSize(Number(e.target.value))}
+              />
+            </label>
+            <label
+              style={{ display: "flex", alignItems: "center" }}
+              htmlFor="heading-weight"
+            >
+              <strong>Heading weight: </strong>
+              <input
+                style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
+                type="range"
+                name="heading-weight"
+                id="heading-weight"
+                min={200}
+                max={900}
+                step={10}
+                value={headingWeight}
+                onChange={e => setHeadingWeight(Number(e.target.value))}
+              />
+            </label>
+            <label
+              style={{ display: "flex", alignItems: "center" }}
+              htmlFor="body-size"
+            >
+              <strong>Body size: </strong>
+              <input
+                style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
+                type="range"
+                name="body-size"
+                id="body-size"
+                min={12}
+                max={100}
+                step={1}
+                value={bodySize}
+                onChange={e => setBodySize(Number(e.target.value))}
+              />
+            </label>
+            <label
+              style={{ display: "flex", alignItems: "center" }}
+              htmlFor="body-weight"
+            >
+              <strong>Body weight: </strong>
+              <input
+                style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
+                type="range"
+                name="body-weight"
+                id="body-weight"
+                min={200}
+                max={900}
+                step={10}
+                value={bodyWeight}
+                onChange={e => setBodyWeight(Number(e.target.value))}
+              />
+            </label>
+          </div>
+        </div>
         <p style={{ fontSize: `${bodySize}px`, fontWeight: bodyWeight }}>
           <em>OpenType variable fonts</em> are an extension to the OpenType
           specification, introduced in OpenType 1.8. On 14 September 2016,

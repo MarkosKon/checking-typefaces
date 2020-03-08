@@ -2,9 +2,7 @@ import React from "react"
 
 export default () => (
   <main>
-    <h1 style={{ marginBottom: "calc(var(--rhythm) * 2)" }}>
-      Reveal animations στο scroll με react-spring
-    </h1>
+    <h1>Reveal animations στο scroll με react-spring</h1>
     <h2>Εισαγωγή</h2>
     <p>
       Σε αυτό το post, θα χρησιμοποιήσoυμε την βιβλιοθήκη{" "}

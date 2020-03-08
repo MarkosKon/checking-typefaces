@@ -2,9 +2,7 @@ import React from "react"
 
 export default () => (
   <main>
-    <h1 style={{ marginBottom: "calc(var(--rhythm) * 2)" }}>
-      Reveal animations on scroll with react-spring
-    </h1>
+    <h1>Reveal animations on scroll with react-spring</h1>
     <h2>Introduction</h2>
     <p>
       In this post, you’ll use the{" "}
