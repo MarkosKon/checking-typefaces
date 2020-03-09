@@ -9,9 +9,9 @@ const preStyles = {
 
 export default () => (
   <main>
-    <h1>Greek polytonic text</h1>
+    <h1 className="fancy">Greek polytonic text</h1>
     <h2
-      className="small-caps"
+      className="fancy small-caps"
       style={{ fontSize: "1.5em", fontWeight: "normal" }}
     >
       ΤΑ ΠΑΛΑΙΑ ΤΩΝ ΛΑΚΕΔΑΙΜΟΝΙΩΝ ΕΠΙΤΗΔΕΥΜΑΤΑ

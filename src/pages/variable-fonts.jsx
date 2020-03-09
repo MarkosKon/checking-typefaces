@@ -8,7 +8,7 @@ export default () => {
   return (
     <div>
       <main>
-        <h1 style={{ fontSize: `${headingSize}px`, fontWeight: headingWeight }}>
+        <h1 className="fancy" style={{ fontSize: `${headingSize}px`, fontWeight: headingWeight }}>
           <em>Variable</em> fonts example
         </h1>
         <div

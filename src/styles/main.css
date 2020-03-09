@@ -5,11 +5,12 @@
   font-family: "Inter Variable", sans-serif;
   font-size: 20px;
   --bg: hsl(120, 70%, 88%);
+  --bg-dark: hsl(120, 30%, 48%);
   --text: hsl(120, 50%, 12%);
   --muted: hsl(120, 50%, 75%);
-  --code: hsl(120, 54%, 93%);
+  --code: hsl(120, 65%, 90%);
   --accent: hsl(120, 40%, 32%);
-  background-color: var(--bg);
+  background-color: var(--bg-dark);
   color: var(--text);
   /* See https://rsms.me/inter/dynmetrics/ */
   letter-spacing: -0.017em;
@@ -29,16 +30,20 @@
 }
 body {
   margin: 0;
-  padding: 0;
+  padding: 150px 0 600px;
 }
 main {
   max-width: var(--max-width);
   margin: 0 auto calc(var(--rhythm) * 4);
   padding: 0 var(--rhythm) var(--rhythm);
-  background-color: white;
   border-top-right-radius: 150px;
-  box-shadow: 0 0 0 8px hsl(120, 70%, 96%), 0 0 0 16px hsl(120, 70%, 92%),
-    0 0 0 24px hsl(120, 70%, 88%);
+  border-top-left-radius: 150px;
+  border: 1px dashed hsl(120, 55%, 73%);
+  background-color: var(--bg);
+  box-shadow: 0 0 0 8px hsl(120, 70%, 88%), 0 0 0 16px hsl(120, 65%, 83%),
+    0 0 0 32px hsl(120, 60%, 78%), 0 0 0 64px hsl(120, 55%, 73%),
+    0 0 0 128px hsl(120, 50%, 68%), 0 0 0 256px hsl(120, 45%, 63%),
+    0 0 0 512px hsl(120, 40%, 58%);
 }
 p,
 .body-text {
@@ -57,8 +62,19 @@ p.intro {
   letter-spacing: -0.021em;
 }
 a {
+  text-decoration: none;
+  border-bottom: 1px dashed var(--accent);
   color: var(--accent);
-  outline-color: var(--accent);
+  outline-color: var(--text);
+}
+a:hover {
+  color: var(--text);
+}
+a:focus {
+  border-bottom: none;
+  outline-style: dashed;
+  outline-width: 2px;
+  outline-offset: 2px;
 }
 p.intro,
 em,
@@ -81,28 +97,50 @@ h3 {
   font-weight: 700;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
-h1 {
-  font-size: 3.375em;
+.fancy {
   padding: var(--rhythm);
   background-color: var(--text);
   color: var(--bg);
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
+  border: 2px solid black;
   --shift: calc((110vw - var(--max-width)) / -2);
   padding-left: calc(var(--shift) * -1);
   margin-left: var(--shift);
+  margin-right: -150px;
   margin-bottom: calc(var(--rhythm) * 3);
-  box-shadow: 0 0 0 16px hsl(120, 55%, 31%), 0 0 0 28px hsl(120, 60%, 50%),
-    0 0 0 36px hsl(120, 65%, 69%), 0 0 0 40px hsl(120, 70%, 88%);
+  /* margin-top: 0; */
+  padding-right: 150px;
+  box-shadow: inset 0 0 4px 4px hsl(120, 22%, 12%),
+    0 0 0 16px hsl(120, 50%, 23%), 0 0 0 28px hsl(120, 50%, 34%),
+    0 0 0 36px hsl(120, 50%, 45%), 0 0 0 40px hsl(120, 50%, 56%);
+  /* 0 0 0 44px hsl(120, 60%, 72%), 0 0 0 46px hsl(120, 70%, 88%); */
+}
+h1.fancy {
+  font-size: 3.375em;
+  --shift: calc((95vw - var(--max-width)) / -2);
 }
 @media screen and (max-width: 672px) {
-  h1 {
+  .fancy {
     padding-left: var(--rhythm);
     margin-left: calc(var(--rhythm) * -1);
   }
 }
+@media screen and (max-width: 930px) {
+  .fancy {
+    /* padding-right: 0; */
+    padding-right: var(--rhythm);
+    margin-right: 0;
+  }
+}
 h2 {
   font-size: 2.25em;
+  display: inline-block;
+  padding-bottom: calc(var(--rhythm) / 8);
+  /* box-shadow: 0 4px 0 0 hsl(120, 50%, 23%); */
+  box-shadow: 0 1px 0 0 hsl(120, 50%, 23%), 0 2px 0 0 hsl(120, 50%, 34%),
+    0 3px 0 0 hsl(120, 50%, 45%), 0 5px 0 0 hsl(120, 50%, 56%),
+    0 8px 0 0 hsl(120, 60%, 72%);
 }
 h3 {
   font-size: 1.5em;

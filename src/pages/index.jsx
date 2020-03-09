@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default () => (
   <main>
-    <h1>Orbs, stars, and twilights</h1>
+    <h1 className="fancy">Orbs, stars, and twilights</h1>
     <ul>
       <li>
         <Link to="/english-tech-post/">English tech post</Link>
@@ -37,7 +37,7 @@ export default () => (
       <sub>2</sub> of an immense dark sphere, whose upper half was strewn with
       silver. The efficient office for ligature testing.
     </p>
-    <h2>Velocity</h2>
+    <h2 className="fancy">Velocity</h2>
     <p>
       As I went on, still gaining velocity, the palpitation of night and day
       merged into one continuous greyness; the sky took on a wonderful deepness
@@ -86,7 +86,7 @@ export default () => (
         education.
       </li>
     </ol>
-    <h2>Tabular data</h2>
+    <h2 className="fancy">Tabular data</h2>
     <div id="table-wrapper">
       <table>
         <caption>

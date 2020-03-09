@@ -2,8 +2,8 @@ import React from "react"
 
 export default () => (
   <main>
-    <h1>Reveal animations on scroll with react-spring</h1>
-    <h2>Introduction</h2>
+    <h1 className="fancy">Reveal animations on scroll with react-spring</h1>
+    <h2 className="fancy">Introduction</h2>
     <p>
       In this post, you’ll use the{" "}
       <a href="https://github.com/react-spring/react-spring">react-spring</a>{" "}
@@ -18,7 +18,7 @@ export default () => (
       a solution with <code>react-visibility-sensor</code> and <abbr>CSS</abbr>{" "}
       transitions.
     </p>
-    <h2>Project Setup</h2>
+    <h2 className="fancy">Project Setup</h2>
     <p>
       Check this{" "}
       <a href="https://github.com/MarkosKon/react-spring-scroll">GitHub repo</a>{" "}
@@ -70,7 +70,7 @@ const App = () => {
         <VisibilitySensor>
             {({ isVisible }) => (
             <Spring delay={300} to={{ opacity: isVisible ? 1 : 0 }}>
-                {({ opacity }) => <h2 style={{ ...h2Styles, opacity }}>Hello</h2>}
+                {({ opacity }) => <h2 className="fancy" style={{ ...h2Styles, opacity }}>Hello</h2>}
             </Spring>
             )}
         </VisibilitySensor>

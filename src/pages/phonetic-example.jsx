@@ -3,13 +3,13 @@ import React from "react"
 export default () => (
   <>
     <main>
-      <h1>Phonetic example</h1>
+      <h1 className="fancy">Phonetic example</h1>
       <p>
         <a href="https://en.wikipedia.org/wiki/Help:IPA">
           https://en.wikipedia.org/wiki/Help:IPA
         </a>
       </p>
-      <h2>Brackets</h2>
+      <h2 className="fancy">Brackets</h2>
       <p>
         Two types of brackets are commonly used to enclose transcriptions in the
         IPA:

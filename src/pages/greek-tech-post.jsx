@@ -2,8 +2,8 @@ import React from "react"
 
 export default () => (
   <main>
-    <h1>Reveal animations στο scroll με react-spring</h1>
-    <h2>Εισαγωγή</h2>
+    <h1 className="fancy">Reveal animations στο scroll με react-spring</h1>
+    <h2 className="fancy">Εισαγωγή</h2>
     <p>
       Σε αυτό το post, θα χρησιμοποιήσoυμε την βιβλιοθήκη{" "}
       <a href="https://github.com/react-spring/react-spring">react-spring</a>{" "}
@@ -19,7 +19,7 @@ export default () => (
       reveal animations, όπως επίσης θα δείξω και μια λύση με την{" "}
       <code>react-visibility-sensor</code> και <abbr>CSS</abbr> transitions.
     </p>
-    <h2>Δημιουργία project</h2>
+    <h2 className="fancy">Δημιουργία project</h2>
     <p>
       Τσέκαρε το{" "}
       <a href="https://github.com/MarkosKon/react-spring-scroll">GitHub repo</a>{" "}
@@ -75,7 +75,7 @@ const App = () => {
         <VisibilitySensor>
             {({ isVisible }) => (
             <Spring delay={300} to={{ opacity: isVisible ? 1 : 0 }}>
-                {({ opacity }) => <h2 style={{ ...h2Styles, opacity }}>Hello</h2>}
+                {({ opacity }) => <h2 className="fancy" style={{ ...h2Styles, opacity }}>Hello</h2>}
             </Spring>
             )}
         </VisibilitySensor>
