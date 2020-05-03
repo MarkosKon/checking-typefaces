@@ -1,24 +1,303 @@
+/* Regular */
 @font-face {
   font-family: "GFS Neohellenic";
+  font-display: swap;
   font-weight: 400;
   font-style: normal;
-  src: url("/fonts/GFSNeohellenic.ttf") format("truetype");
+  src: url("./gfs-neohellenic/Regular/GFSNeohellenic-latin.woff2")
+    format("woff2");
+  unicode-range: U+0041-005A, U+0061-007A, U+00A1, U+00C0-00D6, U+00D8-00F6,
+    U+00F8-00FF;
 }
 @font-face {
   font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Regular/GFSNeohellenic-symbols-punctuation.woff2")
+    format("woff2");
+  unicode-range: U+0020-0040, U+005B-0060, U+007B-00A0, U+00A2-00BF, U+00D7,
+    U+00F7, U+2010-2014, U+2018-2044, U+20A1-212E, U+FB00-FFFC;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Regular/GFSNeohellenic-rest.woff2")
+    format("woff2");
+  unicode-range: U+0180-036F, U+2016-2017, U+2070-209F, U+2153-25E6, U+E001-E006;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Regular/GFSNeohellenic-latin-extended-a.woff2")
+    format("woff2");
+  unicode-range: U+0100-017F;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Regular/GFSNeohellenic-latin-extended-additional.woff2")
+    format("woff2");
+  unicode-range: U+1E00-1EFF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Regular/GFSNeohellenic-greek.woff2")
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Regular/GFSNeohellenic-greek-polytonic.woff2")
+    format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Regular/GFSNeohellenic-private-use.woff2")
+    format("woff2");
+  unicode-range: U+F500-F7FF;
+}
+
+/* Italic */
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
   font-weight: 400;
   font-style: italic;
-  src: url("/fonts/GFSNeohellenicItalic.ttf") format("truetype");
+  src: url("./gfs-neohellenic/Italic/GFSNeohellenicItalic-latin.woff2")
+    format("woff2");
+  unicode-range: U+0041-005A, U+0061-007A, U+00A1, U+00C0-00D6, U+00D8-00F6,
+    U+00F8-00FF;
 }
 @font-face {
   font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./gfs-neohellenic/Italic/GFSNeohellenicItalic-symbols-punctuation.woff2")
+    format("woff2");
+  unicode-range: U+0020-0040, U+005B-0060, U+007B-00A0, U+00A2-00BF, U+00D7,
+    U+00F7, U+2010-2014, U+2018-2044, U+20A1-212E, U+FB00-FFFC;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./gfs-neohellenic/Italic/GFSNeohellenicItalic-rest.woff2")
+    format("woff2");
+  unicode-range: U+0180-036F, U+2016-2017, U+2070-209F, U+2153-25E6, U+E001-E006;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./gfs-neohellenic/Italic/GFSNeohellenicItalic-latin-extended-a.woff2")
+    format("woff2");
+  unicode-range: U+0100-017F;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./gfs-neohellenic/Italic/GFSNeohellenicItalic-latin-extended-additional.woff2")
+    format("woff2");
+  unicode-range: U+1E00-1EFF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./gfs-neohellenic/Italic/GFSNeohellenicItalic-greek.woff2")
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./gfs-neohellenic/Italic/GFSNeohellenicItalic-greek-polytonic.woff2")
+    format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("./gfs-neohellenic/Italic/GFSNeohellenicItalic-private-use.woff2")
+    format("woff2");
+  unicode-range: U+F500-F7FF;
+}
+
+/* Bold */
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
   font-weight: 700;
   font-style: normal;
-  src: url("/fonts/GFSNeohellenicBold.ttf") format("truetype");
+  src: url("./gfs-neohellenic/Bold/GFSNeohellenicBold-latin.woff2")
+    format("woff2");
+  unicode-range: U+0041-005A, U+0061-007A, U+00A1, U+00C0-00D6, U+00D8-00F6,
+    U+00F8-00FF;
 }
 @font-face {
   font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Bold/GFSNeohellenicBold-symbols-punctuation.woff2")
+    format("woff2");
+  unicode-range: U+0020-0040, U+005B-0060, U+007B-00A0, U+00A2-00BF, U+00D7,
+    U+00F7, U+2010-2014, U+2018-2044, U+20A1-212E, U+FB00-FFFC;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Bold/GFSNeohellenicBold-rest.woff2")
+    format("woff2");
+  unicode-range: U+0180-036F, U+2016-2017, U+2070-209F, U+2153-25E6, U+E001-E006;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Bold/GFSNeohellenicBold-latin-extended-a.woff2")
+    format("woff2");
+  unicode-range: U+0100-017F;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Bold/GFSNeohellenicBold-latin-extended-additional.woff2")
+    format("woff2");
+  unicode-range: U+1E00-1EFF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Bold/GFSNeohellenicBold-greek.woff2")
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Bold/GFSNeohellenicBold-greek-polytonic.woff2")
+    format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("./gfs-neohellenic/Bold/GFSNeohellenicBold-private-use.woff2")
+    format("woff2");
+  unicode-range: U+F500-F7FF;
+}
+
+/* BoldItalic */
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
   font-weight: 700;
   font-style: italic;
-  src: url("/fonts/GFSNeohellenicBoldItalic.ttf") format("truetype");
+  src: url("./gfs-neohellenic/BoldItalic/GFSNeohellenicBoldItalic-latin.woff2")
+    format("woff2");
+  unicode-range: U+0041-005A, U+0061-007A, U+00A1, U+00C0-00D6, U+00D8-00F6,
+    U+00F8-00FF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./gfs-neohellenic/BoldItalic/GFSNeohellenicBoldItalic-symbols-punctuation.woff2")
+    format("woff2");
+  unicode-range: U+0020-0040, U+005B-0060, U+007B-00A0, U+00A2-00BF, U+00D7,
+    U+00F7, U+2010-2014, U+2018-2044, U+20A1-212E, U+FB00-FFFC;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./gfs-neohellenic/BoldItalic/GFSNeohellenicBoldItalic-rest.woff2")
+    format("woff2");
+  unicode-range: U+0180-036F, U+2016-2017, U+2070-209F, U+2153-25E6, U+E001-E006;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./gfs-neohellenic/BoldItalic/GFSNeohellenicBoldItalic-latin-extended-a.woff2")
+    format("woff2");
+  unicode-range: U+0100-017F;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./gfs-neohellenic/BoldItalic/GFSNeohellenicBoldItalic-latin-extended-additional.woff2")
+    format("woff2");
+  unicode-range: U+1E00-1EFF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./gfs-neohellenic/BoldItalic/GFSNeohellenicBoldItalic-greek.woff2")
+    format("woff2");
+  unicode-range: U+0370-03FF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./gfs-neohellenic/BoldItalic/GFSNeohellenicBoldItalic-greek-polytonic.woff2")
+    format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+@font-face {
+  font-family: "GFS Neohellenic";
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("./gfs-neohellenic/BoldItalic/GFSNeohellenicBoldItalic-private-use.woff2")
+    format("woff2");
+  unicode-range: U+F500-F7FF;
 }

@@ -1,0 +1,19 @@
+- (Latin) U+0041-005A,U+0061-007A,U+00A1,U+00C0-00D6,U+00D8-00F6,U+00F8-00FF
+- (symbols-punctuation) U+0020-0040,U+005B-0060,U+007B-00A0,U+00A2-00BF,U+00D7,U+00F7,U+2010-2014,U+2018-2044,U+20A1-212E,U+FB00-FFFC
+- (rest) U+0180-036F,U+2016-2017,U+2070-209F,U+2153-25E6,U+E001-E006
+- (Latin-extended-a) U+0100-017F 
+- (Greek) U+0370-03FF 
+- (Latin-extended-additional) U+1E00-1EFF 
+- (Greek polytonic) U+1F00-1FFF 
+- (private-use) U+F500-F7FF 
+
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-all.woff2" --flavor=woff2 --layout-features=* --unicodes=*
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-latin.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0041-005A,U+0061-007A,U+00A1,U+00C0-00D6,U+00D8-00F6,U+00F8-00FF 
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-symbols-punctuation.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0020-0040,U+005B-0060,U+007B-00A0,U+00A2-00BF,U+00D7,U+00F7,U+2010-2014,U+2018-2044,U+20A1-212E,U+FB00-FFFC 
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-rest.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0180-036F,U+2016-2017,U+2070-209F,U+2153-25E6,U+E001-E006 
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-latin-extended-a.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0100-017F 
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-latin-extended-additional.woff2" --flavor=woff2 --layout-features=* --unicodes=U+1E00-1EFF 
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-greek.woff2" --flavor=woff2 --layout-features=* --unicodes=U+0370-03FF 
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-greek-polytonic.woff2" --flavor=woff2 --layout-features=* --unicodes=U+1F00-1FFF 
+pyftsubset GFSNeohellenic.ttf --output-file="GFSNeohellenic-private-use.woff2" --flavor=woff2 --layout-features=* --unicodes=U+F500-F7FF 
+
