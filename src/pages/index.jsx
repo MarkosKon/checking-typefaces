@@ -17,9 +17,6 @@ export default () => (
       <li>
         <Link to="/phonetic-example/">Phonetic text</Link>
       </li>
-      <li>
-        <Link to="/variable-fonts/">Variable fonts</Link>
-      </li>
     </ul>
     <p className="intro">
       A peep at some distant orb has power to raise and purify our thoughts like
