@@ -3,12 +3,12 @@ import React, { useState } from "react"
 export default () => {
   const [headingSize, setHeadingSize] = useState(67)
   const [headingWeight, setHeadingWeight] = useState(700)
-  const [headingOpticalSize, setHeadingOpticalSize] = useState(67)
+  const [headingOpticalSize, setHeadingOpticalSize] = useState(30)
   const [bodySize, setBodySize] = useState(20)
   const [bodyWeight, setBodyWeight] = useState(400)
   const [bodyOpticalSize, setBodyOpticalSize] = useState(20)
   return (
-    <div style={{ fontFamily: "Literata, serif" }}>
+    <div style={{ fontFamily: "Piazzolla, serif" }}>
       <header
         style={{
           maxWidth: "calc(var(--rhythm) * 24)",
@@ -66,8 +66,8 @@ export default () => {
               type="range"
               name="heading-optical-size"
               id="heading-optical-size"
-              min={7}
-              max={72}
+              min={8}
+              max={30}
               step={1}
               value={headingOpticalSize}
               onChange={(e) => setHeadingOpticalSize(Number(e.target.value))}
@@ -117,8 +117,8 @@ export default () => {
               type="range"
               name="body-optical-size"
               id="body-optical-size"
-              min={7}
-              max={72}
+              min={8}
+              max={30}
               step={1}
               value={bodyOpticalSize}
               onChange={(e) => setBodyOpticalSize(Number(e.target.value))}

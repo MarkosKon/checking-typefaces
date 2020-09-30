@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "Literata", serif;
-  font-variation-settings: "opsz" 20;
-  font-size: 20px;
-  line-height: 1.45;
-  --rhythm: calc(20px * 1.45);
+  font-family: "Piazzolla", serif;
+  font-variation-settings: "opsz" 22;
+  font-size: 22px;
+  line-height: 1.35;
+  --rhythm: calc(22px * 1.35);
 }
 body {
   margin: 0;
@@ -22,6 +22,7 @@ p {
 }
 p.intro {
   font-size: 1.5em;
+  font-weight: 300;
   font-variation-settings: "opsz" 30;
   line-height: 1.25;
   font-style: italic;
@@ -39,19 +40,19 @@ h1,
 h2,
 h3 {
   /* font-family: "Source Code Pro", monospace; */
-  font-weight: 700;
+  font-weight: 600;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
+  font-variation-settings: "opsz" 30;
 }
 h1 {
-  font-size: 3.375em;
-  font-variation-settings: "opsz" 67;
+  font-weight: 100;
+  font-size: 6em;
+  line-height: 1;
 }
 h2 {
   font-size: 2.25em;
-  font-variation-settings: "opsz" 45;
 }
 h3 {
-  font-variation-settings: "opsz" 30;
   font-size: 1.5em;
 }
 h4,

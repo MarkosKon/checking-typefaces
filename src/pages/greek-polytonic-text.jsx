@@ -1,7 +1,7 @@
 import React from "react"
 
 const preStyles = {
-  fontFamily: "Literata, serif",
+  fontFamily: "Piazzolla, serif",
   backgroundColor: "transparent",
   marginBottom: "calc(var(--rhythm) / 2)",
   padding: 0,
@@ -15,7 +15,6 @@ export default () => (
       style={{
         fontSize: "1.5em",
         fontWeight: "normal",
-        fontVariationSettings: "'opsz' 30",
       }}
     >
       ΤΑ ΠΑΛΑΙΑ ΤΩΝ ΛΑΚΕΔΑΙΜΟΝΙΩΝ ΕΠΙΤΗΔΕΥΜΑΤΑ

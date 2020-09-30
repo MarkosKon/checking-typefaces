@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default () => (
   <main>
-    <h1>Orbs, stars, and twilights</h1>
+    <h1>Orbs, stars, & twilights </h1>
     <ul>
       <li>
         <Link to="/english-tech-post/">English tech post</Link>
@@ -24,7 +24,8 @@ export default () => (
     <p className="intro">
       A peep at some distant orb has power to raise and purify our thoughts like
       a strain of sacred music, or a noble picture, or a passage from the
-      grander poets. It always does 1 good.
+      grander poets. It always does 1 good.{" "}
+      <span style={{ fontFeatureSettings: "'ss01'" }}>IV</span> 
     </p>
     <p>
       Apparently we had reached a great height in the atmosphere (

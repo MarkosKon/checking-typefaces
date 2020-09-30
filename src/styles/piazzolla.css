@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Piazzolla;
+  font-stretch: normal;
+  font-weight: 100 900;
+  font-style: normal;
+  src: url("/Piazzolla[opsz,wght].ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Piazzolla;
+  font-stretch: normal;
+  font-weight: 100 900;
+  font-style: italic;
+  src: url("/Piazzolla-Italic[opsz,wght].ttf") format("truetype");
+}
