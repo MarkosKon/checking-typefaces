@@ -7,11 +7,6 @@
   resolved "https://registry.yarnpkg.com/@affectionatedoor/opentype/-/opentype-1.2.0.tgz#70b4815f07fc7bb20498eb81cc01a37675c24fa0"
   integrity sha512-64j25fUP6kN72sl0X1S0LOdgdRNtQgXJRF7qgg27Dw/xykaaLEYoixTt+/ACVHNv+DMeNcePMqfGl7S7/V7gxg==
 
-"@affectionatedoor/source-sans-subsets@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@affectionatedoor/source-sans-subsets/-/source-sans-subsets-1.1.2.tgz#c59e46bf8efaa6d104e40095f09fcfabed5d5029"
-  integrity sha512-hk75hkJOqCzHCDC6C2n/sCeUdORQ2zh2UL+i9pyiubaLSR6R6gZazPFEX2T1w6a90CnI6wSf0oNwa+jt0ZW7jA==
-
 "@ardatan/aggregate-error@0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@ardatan/aggregate-error/-/aggregate-error-0.0.6.tgz#fe6924771ea40fc98dc7a7045c2e872dc8527609"

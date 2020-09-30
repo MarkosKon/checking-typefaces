@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Literata", serif;
+  font-variation-settings: "opsz" 20;
   font-size: 20px;
   line-height: 1.45;
   --rhythm: calc(20px * 1.45);
@@ -21,6 +22,7 @@ p {
 }
 p.intro {
   font-size: 1.5em;
+  font-variation-settings: "opsz" 30;
   line-height: 1.25;
   font-style: italic;
 }
@@ -42,11 +44,14 @@ h3 {
 }
 h1 {
   font-size: 3.375em;
+  font-variation-settings: "opsz" 67;
 }
 h2 {
   font-size: 2.25em;
+  font-variation-settings: "opsz" 45;
 }
 h3 {
+  font-variation-settings: "opsz" 30;
   font-size: 1.5em;
 }
 h4,
