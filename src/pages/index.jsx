@@ -12,12 +12,6 @@ export default () => (
         <Link to="/greek-tech-post/">Greek tech post</Link>
       </li>
       <li>
-        <Link to="/greek-polytonic-text/">Greek polytonic text</Link>
-      </li>
-      <li>
-        <Link to="/phonetic-example/">Phonetic text</Link>
-      </li>
-      <li>
         <Link to="/variable-fonts/">Variable fonts</Link>
       </li>
     </ul>
@@ -28,9 +22,9 @@ export default () => (
     </p>
     <p>
       Apparently we had reached a great height in the atmosphere (
-      <span className="fraction">1/2</span>), for the{" "}
-      <span className="small-caps">sky</span> was a dead black, and the stars
-      had ceased to twinkle. By the same illusion which lifts the horizon
+      <span className="fraction">1/2</span>), for the sky was a dead black, and
+      the stars had ceased to twinkle. By the same illusion which lifts the
+      horizon
       <sup>1</sup> of the sea to the level of the spectator on a hillside, the
       sable cloud beneath was dished out, and the car seemed to float in the
       middle

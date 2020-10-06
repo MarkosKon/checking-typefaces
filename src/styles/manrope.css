@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Manrope;
+  font-stretch: normal;
+  font-weight: 200 800;
+  font-style: normal;
+  src: url("/Manrope[wght].ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Manrope;
+  font-stretch: normal;
+  font-weight: 200 800;
+  font-style: italic;
+  src: local("arial.ttf");
+}
