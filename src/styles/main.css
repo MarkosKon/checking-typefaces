@@ -2,11 +2,29 @@
   box-sizing: border-box;
 }
 :root {
-  font-family: "Literata", serif;
-  font-variation-settings: "opsz" 20;
+  font-family: Arimo, Arial, sans-serif;
   font-size: 20px;
-  line-height: 1.45;
-  --rhythm: calc(20px * 1.45);
+  line-height: 1.5;
+  --rhythm: calc(20px * 1.5);
+  color: hsl(0 0% 20% / 1);
+}
+/* opentype overrides */
+abbr,
+.small-caps {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-variant-caps: normal;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "lnum", "tnum";
+  font-feature-settings: "kern", "liga", "clig", "calt", "lnum", "tnum";
+}
+p,
+.body-text {
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  font-variant-numeric: lining-nums tabular-nums;
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "lnum", "tnum";
+  font-feature-settings: "kern", "liga", "clig", "calt", "lnum", "tnum";
 }
 body {
   margin: 0;
@@ -22,7 +40,6 @@ p {
 }
 p.intro {
   font-size: 1.5em;
-  font-variation-settings: "opsz" 30;
   line-height: 1.25;
   font-style: italic;
 }
@@ -33,25 +50,20 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  /* border-bottom: 5px solid black; */
 }
 h1,
 h2,
 h3 {
-  /* font-family: "Source Code Pro", monospace; */
   font-weight: 700;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
 h1 {
   font-size: 3.375em;
-  font-variation-settings: "opsz" 67;
 }
 h2 {
   font-size: 2.25em;
-  font-variation-settings: "opsz" 45;
 }
 h3 {
-  font-variation-settings: "opsz" 30;
   font-size: 1.5em;
 }
 h4,
@@ -68,9 +80,7 @@ pre,
 code {
   font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
   font-weight: normal;
-  /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;
-  /* font-size: 16px; */
 }
 pre {
   overflow-x: auto;
@@ -84,7 +94,6 @@ pre {
   overflow-x: auto;
 }
 table {
-  /* font-size: 16px; */
   margin: 0 0 var(--rhythm);
   border-collapse: collapse;
   border: 2px solid #544c41;

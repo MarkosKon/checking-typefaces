@@ -3,12 +3,10 @@ import React, { useState } from "react"
 export default () => {
   const [headingSize, setHeadingSize] = useState(67)
   const [headingWeight, setHeadingWeight] = useState(700)
-  const [headingOpticalSize, setHeadingOpticalSize] = useState(67)
   const [bodySize, setBodySize] = useState(20)
   const [bodyWeight, setBodyWeight] = useState(400)
-  const [bodyOpticalSize, setBodyOpticalSize] = useState(20)
   return (
-    <div style={{ fontFamily: "Literata, serif" }}>
+    <div style={{ fontFamily: "Arimo, Arial, sans-serif" }}>
       <header
         style={{
           maxWidth: "calc(var(--rhythm) * 24)",
@@ -36,7 +34,7 @@ export default () => {
               max={200}
               step={1}
               value={headingSize}
-              onChange={(e) => setHeadingSize(Number(e.target.value))}
+              onChange={e => setHeadingSize(Number(e.target.value))}
             />
           </label>
           <label
@@ -49,28 +47,11 @@ export default () => {
               type="range"
               name="heading-weight"
               id="heading-weight"
-              min={200}
-              max={900}
+              min={400}
+              max={700}
               step={10}
               value={headingWeight}
-              onChange={(e) => setHeadingWeight(Number(e.target.value))}
-            />
-          </label>
-          <label
-            style={{ display: "flex", alignItems: "center" }}
-            htmlFor="heading-optical-size"
-          >
-            <strong>Heading optical size: </strong>
-            <input
-              style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
-              type="range"
-              name="heading-optical-size"
-              id="heading-optical-size"
-              min={7}
-              max={72}
-              step={1}
-              value={headingOpticalSize}
-              onChange={(e) => setHeadingOpticalSize(Number(e.target.value))}
+              onChange={e => setHeadingWeight(Number(e.target.value))}
             />
           </label>
           <label
@@ -87,7 +68,7 @@ export default () => {
               max={100}
               step={1}
               value={bodySize}
-              onChange={(e) => setBodySize(Number(e.target.value))}
+              onChange={e => setBodySize(Number(e.target.value))}
             />
           </label>
           <label
@@ -100,28 +81,11 @@ export default () => {
               type="range"
               name="body-weight"
               id="body-weight"
-              min={200}
-              max={900}
+              min={400}
+              max={700}
               step={10}
               value={bodyWeight}
-              onChange={(e) => setBodyWeight(Number(e.target.value))}
-            />
-          </label>
-          <label
-            style={{ display: "flex", alignItems: "center" }}
-            htmlFor="body-optical-size"
-          >
-            <strong>Body optical size: </strong>
-            <input
-              style={{ marginLeft: "calc(var(--rhythm) / 2)" }}
-              type="range"
-              name="body-optical-size"
-              id="body-optical-size"
-              min={7}
-              max={72}
-              step={1}
-              value={bodyOpticalSize}
-              onChange={(e) => setBodyOpticalSize(Number(e.target.value))}
+              onChange={e => setBodyWeight(Number(e.target.value))}
             />
           </label>
         </div>
@@ -131,7 +95,6 @@ export default () => {
           style={{
             fontSize: `${headingSize}px`,
             fontWeight: headingWeight,
-            fontVariationSettings: `'opsz' ${headingOpticalSize}`,
           }}
         >
           <em>Variable</em> fonts example
@@ -140,7 +103,6 @@ export default () => {
           style={{
             fontSize: `${bodySize}px`,
             fontWeight: bodyWeight,
-            fontVariationSettings: `'opsz' ${bodyOpticalSize}`,
           }}
         >
           <em>OpenType variable fonts</em> are an extension to the OpenType
