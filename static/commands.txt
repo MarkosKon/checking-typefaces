@@ -1,0 +1,17 @@
+pyftsubset \
+  GentiumPlus-R.ttf \
+  --output-file="GentiumPlus-R-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset \
+  GentiumPlus-I.ttf \
+  --output-file="GentiumPlus-I-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize

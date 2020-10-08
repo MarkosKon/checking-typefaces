@@ -5,6 +5,7 @@ const preStyles = {
   backgroundColor: "transparent",
   marginBottom: "calc(var(--rhythm) / 2)",
   padding: 0,
+  overflow: 'hidden'
 }
 
 export default () => (
