@@ -3,9 +3,9 @@
 }
 :root {
   font-family: "GFS Neohellenic", sans-serif;
-  font-size: 21px;
-  line-height: 1.25;
-  --rhythm: calc(21px * 1.25);
+  font-size: 24px;
+  line-height: 1.15;
+  --rhythm: calc(24px * 1.15);
 }
 body {
   margin: 0;
@@ -65,7 +65,7 @@ code {
   font-weight: normal;
   /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;
-  font-size: 0.83em;
+  font-size: 0.8em;
 }
 pre {
   overflow-x: auto;
