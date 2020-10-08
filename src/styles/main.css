@@ -4,8 +4,8 @@
 :root {
   font-family: "GFS Bodoni", sans-serif;
   font-size: 20px;
-  line-height: 1.45;
-  --rhythm: calc(20px * 1.45);
+  line-height: 1.35;
+  --rhythm: calc(20px * 1.35);
 }
 body {
   margin: 0;
@@ -63,6 +63,7 @@ pre,
 code {
   font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
   font-weight: normal;
+  font-size: 19px;
   /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;
 }
