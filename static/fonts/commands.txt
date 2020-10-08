@@ -1,0 +1,63 @@
+pyftsubset\
+  GFSArtemisia.ttf \
+  --output-file="GFSArtemisia-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset\
+  GFSArtemisia.ttf \
+  --output-file="GFSArtemisia-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* &&
+
+pyftsubset\
+  GFSArtemisiaItalic.ttf \
+  --output-file="GFSArtemisiaItalic-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset\
+  GFSArtemisiaItalic.ttf \
+  --output-file="GFSArtemisiaItalic-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* &&
+
+pyftsubset\
+  GFSArtemisiaBold.ttf \
+  --output-file="GFSArtemisiaBold-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset\
+  GFSArtemisiaBold.ttf \
+  --output-file="GFSArtemisiaBold-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* &&
+
+pyftsubset\
+  GFSArtemisiaBoldIt.ttf \
+  --output-file="GFSArtemisiaBoldIt-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset\
+  GFSArtemisiaBoldIt.ttf \
+  --output-file="GFSArtemisiaBoldIt-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=*

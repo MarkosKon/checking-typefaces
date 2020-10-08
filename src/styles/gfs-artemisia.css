@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "GFS Artemisia";
   font-weight: 400;
   font-style: normal;
@@ -20,5 +20,32 @@
   font-family: "GFS Artemisia";
   font-weight: 700;
   font-style: italic;
+  src: url("/fonts/GFSArtemisiaBoldIt.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "GFS Artemisia";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/GFSArtemisia-all-no-hinting.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GFS Artemisia";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/GFSArtemisiaItalic-all-no-hinting.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GFS Artemisia";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/GFSArtemisiaBold-all-no-hinting.woff2") format("woff2");
+}
+/* pyftsubset error for the bold italic */
+@font-face {
+  font-family: "GFS Artemisia";
+  font-weight: 700;
+  font-style: italic;
+  /* src: url("/fonts/GFSArtemisiaBoldIt-all-no-hinting.woff2") format("woff2"); */
   src: url("/fonts/GFSArtemisiaBoldIt.ttf") format("truetype");
 }
