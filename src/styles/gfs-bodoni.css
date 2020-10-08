@@ -1,7 +1,8 @@
-@font-face {
+/* @font-face {
   font-family: "GFS Bodoni";
   font-weight: 400;
   font-style: normal;
+  src: url("/fonts/GFSBodoni-all.woff2") format("woff2");
   src: url("/fonts/GFSBodoni.ttf") format("truetype");
 }
 @font-face {
@@ -21,4 +22,29 @@
   font-weight: 700;
   font-style: italic;
   src: url("/fonts/GFSBodoniBoldIt.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "GFS Bodoni";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/GFSBodoni-all-no-hinting.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GFS Bodoni";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/GFSBodoniIt-all-no-hinting.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GFS Bodoni";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/GFSBodoniBold-all-no-hinting.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GFS Bodoni";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/GFSBodoniBoldIt-all-no-hinting.woff2") format("woff2");
 }

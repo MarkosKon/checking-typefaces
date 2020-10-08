@@ -1,0 +1,35 @@
+pyftsubset \
+  GFSBodoni.ttf \
+  --output-file="GFSBodoni-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset \
+  GFSBodoniIt.ttf \
+  --output-file="GFSBodoniIt-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset \
+  GFSBodoniBold.ttf \
+  --output-file="GFSBodoniBold-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset \
+  GFSBodoniBoldIt.ttf \
+  --output-file="GFSBodoniBoldIt-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize
