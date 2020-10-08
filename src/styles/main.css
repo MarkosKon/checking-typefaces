@@ -3,9 +3,9 @@
 }
 :root {
   font-family: "GFS Didot", serif;
-  font-size: 20.6px;
+  font-size: 20px;
   line-height: 1.4;
-  --rhythm: calc(20.6px * 1.4);
+  --rhythm: calc(20px * 1.4);
 }
 body {
   margin: 0;
@@ -65,7 +65,7 @@ code {
   font-weight: normal;
   /* font-family: "Source Code Pro", monospace; */
   border-radius: 3px;
-  font-size: 0.83em;
+  font-size: 0.9em;
 }
 pre {
   overflow-x: auto;

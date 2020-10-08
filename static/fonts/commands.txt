@@ -1,0 +1,35 @@
+pyftsubset \
+  GFSDidot.ttf \
+  --output-file="GFSDidot-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset \
+  GFSDidotItalic.ttf \
+  --output-file="GFSDidotItalic-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset \
+  GFSDidotBold.ttf \
+  --output-file="GFSDidotBold-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset \
+  GFSDidotBoldItalic.ttf \
+  --output-file="GFSDidotBoldItalic-all-no-hinting.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize

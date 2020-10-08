@@ -1,8 +1,9 @@
-@font-face {
+/* @font-face {
   font-family: "GFS Didot";
   font-weight: 400;
   font-style: normal;
   src: url("/fonts/GFSDidot.ttf") format("truetype");
+  src: url("/fonts/GFSDidot-all-no-hinting.woff2") format("woff2");
 }
 @font-face {
   font-family: "GFS Didot";
@@ -21,4 +22,32 @@
   font-weight: 700;
   font-style: italic;
   src: url("/fonts/GFSDidotBoldItalic.ttf") format("truetype");
+} */
+
+
+/* Removing hinting doesn't make much difference here, compared
+to GFS-Bodoni and GFS-Artemisia (haven't seen GFS-Neohellenic yet). */
+@font-face {
+  font-family: "GFS Didot";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/GFSDidot-all-no-hinting.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GFS Didot";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/GFSDidotItalic-all-no-hinting.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GFS Didot";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/GFSDidotBold-all-no-hinting.woff2") format("woff2");
+}
+@font-face {
+  font-family: "GFS Didot";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/GFSDidotBoldItalic-all-no-hinting.woff2") format("woff2");
 }
