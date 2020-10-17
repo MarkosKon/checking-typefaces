@@ -3,7 +3,39 @@ import { Link } from "gatsby"
 
 export default () => (
   <main>
-    <h1>Orbs, stars, and twilights</h1>
+    <h1>
+      <span role="image" aria-label="Ghost emoji">
+        👻
+      </span>
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss01'" }}>
+        👻
+      </span>{" "}
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss02'" }}>
+        👻
+      </span>{" "}
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss03'" }}>
+        👻
+      </span>{" "}
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss04'" }}>
+        👻
+      </span>{" "}
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss05'" }}>
+        👻
+      </span>{" "}
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss06'" }}>
+        👻
+      </span>{" "}
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss07'" }}>
+        👻
+      </span>{" "}
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss08'" }}>
+        👻
+      </span>{" "}
+      <span aria-hidden="true" style={{ fontFeatureSettings: "'ss09'" }}>
+        👻
+      </span>{" "}
+      Orbs, stars, and twilights{" "}
+    </h1>
     <ul>
       <li>
         <Link to="/english-tech-post/">English tech post</Link>

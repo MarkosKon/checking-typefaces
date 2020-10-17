@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Ghost Town;
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: extra-condensed;
+  src: url("/fonts/GhostTown-Thin.otf") format("truetype");
+}
+
+@font-face {
+  font-family: Ghost Town;
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: extra-condensed;
+  src: url("/fonts/GhostTown-ThinOblique.otf") format("truetype");
+}

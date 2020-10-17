@@ -31,23 +31,23 @@ h4,
 h5,
 h6 {
   line-height: 1;
+  font-weight: 100;
   /* border-bottom: 5px solid black; */
 }
 h1,
 h2,
 h3 {
-  /* font-family: "Source Code Pro", monospace; */
-  font-weight: 700;
+  font-family: "Ghost Town", serif;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
 h1 {
-  font-size: 3.375em;
+  font-size: 8em;
 }
 h2 {
-  font-size: 2.25em;
+  font-size: 6em;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 4em;
 }
 h4,
 h5,
