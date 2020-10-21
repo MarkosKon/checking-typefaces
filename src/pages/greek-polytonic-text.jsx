@@ -14,7 +14,7 @@ export default () => (
       className="small-caps"
       style={{ fontSize: "1.5em", fontWeight: "normal" }}
     >
-      ΤΑ ΠΑΛΑΙΑ ΤΩΝ ΛΑΚΕΔΑΙΜΟΝΙΩΝ ΕΠΙΤΗΔΕΥΜΑΤΑ
+      ΤΑ ΠΑΛΑΙΑ ΤΩΝ ΛΑΚΕΔΑΙΜΟΝΙΩΝ ΕΠΙΤΕΔΕΥΜΑΤΑ
     </h2>
     <ol>
       <li>
