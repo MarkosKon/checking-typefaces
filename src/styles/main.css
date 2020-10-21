@@ -5,10 +5,12 @@
   --line-height: 1.5;
   --font-size: 20px;
   --rhythm: calc(var(--font-size) * var(--line-height));
-  --font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: "Trebuchet MS", sans-serif;
+  --text-color: hsl(41deg 15% 15%);
   font-size: var(--font-size);
   line-height: var(--line-height);
   font-family: var(--font-family);
+  color: var(--text-color);
 }
 body {
   margin: 0;
@@ -33,13 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  --font-family: "Helvetica Neue", "Neue Haas Grotesk Text Pro", Helvetica,
-    Arial, sans-serif;
-  /* The greek don't render well because Neue Haas Grotesk Text Pro has glyphs like μ
-  and it mixes with Arial. You need a font-family that references the files or a .greek 
-  class in CSS. */
-  font-family: var(--font-family);
-  line-height: 1;
+  line-height: 1.1;
 }
 h1,
 h2,
@@ -71,7 +67,6 @@ code {
   font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
   font-weight: normal;
   border-radius: 3px;
-  font-size: 0.95em;
 }
 pre {
   overflow-x: auto;
