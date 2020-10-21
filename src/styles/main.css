@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 :root {
-  --line-height: 1.5;
+  --line-height: 1.4;
   --font-size: 20px;
   --rhythm: calc(var(--font-size) * var(--line-height));
-  --font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: Charter, "Sitka Subheading", serif;
   font-size: var(--font-size);
   line-height: var(--line-height);
   font-family: var(--font-family);
@@ -33,13 +33,9 @@ h3,
 h4,
 h5,
 h6 {
-  --font-family: "Helvetica Neue", "Neue Haas Grotesk Text Pro", Helvetica,
-    Arial, sans-serif;
-  /* The greek don't render well because Neue Haas Grotesk Text Pro has glyphs like μ
-  and it mixes with Arial. You need a font-family that references the files or a .greek 
-  class in CSS. */
+  line-height: 1.1;
+  --font-family: Charter, "Sitka Heading", serif;
   font-family: var(--font-family);
-  line-height: 1;
 }
 h1,
 h2,
@@ -48,7 +44,10 @@ h3 {
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
 h1 {
-  font-size: 3.375em;
+  font-size: 6em;
+  line-height: 0.9;
+  --font-family: Charter, "Sitka Banner", serif;
+  font-family: var(--font-family);
 }
 h2 {
   font-size: 2.25em;
