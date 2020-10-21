@@ -5,7 +5,9 @@
   --line-height: 1.5;
   --font-size: 20px;
   --rhythm: calc(var(--font-size) * var(--line-height));
-  --font-family: "Trebuchet MS", sans-serif;
+  --font-family:  "Gill Sans Nova", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  /* Gill Sans Nova has greek but Gill Sans MT doesn't so it falls back to Trebuchet MS. 
+   Also the Nova version is metrically smaller that the old version. */
   --text-color: hsl(41deg 15% 15%);
   font-size: var(--font-size);
   line-height: var(--line-height);
@@ -45,6 +47,7 @@ h3 {
 }
 h1 {
   font-size: 3.375em;
+  font-weight: 900;
 }
 h2 {
   font-size: 2.25em;
