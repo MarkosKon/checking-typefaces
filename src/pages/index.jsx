@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default () => (
   <main>
-    <h1>Orbs, stars, and twilights</h1>
+    <h1>Orbs, stars, & twilights</h1>
     <ul>
       <li>
         <Link to="/english-tech-post/">English tech post</Link>

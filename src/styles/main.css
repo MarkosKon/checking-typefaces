@@ -2,20 +2,26 @@
   box-sizing: border-box;
 }
 :root {
-  --line-height: 1.5;
-  --font-size: 20px;
+  --line-height: 1.4;
+  --font-size: 24px;
   --rhythm: calc(var(--font-size) * var(--line-height));
-  --font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: "Times New Roman", Times, serif;
   font-size: var(--font-size);
   line-height: var(--line-height);
   font-family: var(--font-family);
+}
+@media screen and (max-width: 400px) {
+  :root {
+    font-size: 20px;
+    /* For android because Noto Serif is huge. */
+  }
 }
 body {
   margin: 0;
   padding: 0;
 }
 main {
-  max-width: calc(var(--rhythm) * 24);
+  max-width: calc(var(--rhythm) * 22);
   margin: 0 auto;
   padding: calc(var(--rhythm) / 2);
 }
@@ -26,6 +32,7 @@ p.intro {
   font-size: 1.5em;
   line-height: 1.25;
   font-style: italic;
+  font-feature-settings: "kern", "liga", "calt", "clig", "cswh", "dlig", "swsh";
 }
 h1,
 h2,
@@ -33,22 +40,19 @@ h3,
 h4,
 h5,
 h6 {
-  --font-family: "Helvetica Neue", "Neue Haas Grotesk Text Pro", Helvetica,
-    Arial, sans-serif;
-  /* The greek don't render well because Neue Haas Grotesk Text Pro has glyphs like μ
-  and it mixes with Arial. You need a font-family that references the files or a .greek 
-  class in CSS. */
-  font-family: var(--font-family);
   line-height: 1;
+  font-weight: 400;
 }
 h1,
 h2,
 h3 {
-  font-weight: 700;
   margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
 }
 h1 {
   font-size: 3.375em;
+  font-style: italic;
+  font-feature-settings: "kern", "liga", "calt", "clig", "cswh", "dlig", "swsh";
+  font-weight: 700;
 }
 h2 {
   font-size: 2.25em;

@@ -1,7 +1,7 @@
 import React from "react"
 
 const preStyles = {
-  fontFamily: "'Source Sans Pro', Arial, sans-serif",
+  fontFamily: "var(--font-family)",
   backgroundColor: "transparent",
   marginBottom: "calc(var(--rhythm) / 2)",
   padding: 0,
