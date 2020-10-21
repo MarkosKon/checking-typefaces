@@ -2,10 +2,11 @@
   box-sizing: border-box;
 }
 :root {
-  --line-height: 1.5;
-  --font-size: 20px;
+  --line-height: 1.4;
+  --font-size: 22px;
   --rhythm: calc(var(--font-size) * var(--line-height));
-  --font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family: "Hoefler Text", "Palatino Linotype", Palatino, serif;
+  /* The hinting of greeks for Palatino suck on Windows. */
   font-size: var(--font-size);
   line-height: var(--line-height);
   font-family: var(--font-family);
@@ -33,12 +34,6 @@ h3,
 h4,
 h5,
 h6 {
-  --font-family: "Helvetica Neue", "Neue Haas Grotesk Text Pro", Helvetica,
-    Arial, sans-serif;
-  /* The greek don't render well because Neue Haas Grotesk Text Pro has glyphs like μ
-  and it mixes with Arial. You need a font-family that references the files or a .greek 
-  class in CSS. */
-  font-family: var(--font-family);
   line-height: 1;
 }
 h1,
@@ -71,7 +66,7 @@ code {
   font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
   font-weight: normal;
   border-radius: 3px;
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 pre {
   overflow-x: auto;
