@@ -1,3 +1,4 @@
 import "@affectionatedoor/opentype"
-import "./src/styles/literata.css"
+import "./src/styles/dm-sans.css"
+import "./src/styles/dm-mono.css"
 import "./src/styles/main.css"
