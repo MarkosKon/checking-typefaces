@@ -1,0 +1,92 @@
+pyftsubset\
+  "DMSans-Regular.ttf" \
+  --output-file="DMSans-Regular-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes="U+0000-036F, U+0400-1EFF, U+2000-FB02" &&
+  
+pyftsubset\
+  "DMSans-Italic.ttf" \
+  --output-file="DMSans-Italic-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes="U+0000-036F, U+0400-1EFF, U+2000-FB02" &&
+
+pyftsubset\
+  "DMSans-Bold.ttf" \
+  --output-file="DMSans-Bold-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes="U+0000-036F, U+0400-1EFF, U+2000-FB02" &&
+  
+pyftsubset\
+  "DMSans-BoldItalic.ttf" \
+  --output-file="DMSans-BoldItalic-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes="U+0000-036F, U+0400-1EFF, U+2000-FB02" &&
+
+pyftsubset\
+  "SourceSansPro-Regular.ttf" \
+  --output-file="SourceSansPro-Regular-greek.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes="U+0370-03FF, U+1F00-1FFF" &&
+
+pyftsubset\
+  "SourceSansPro-It.ttf" \
+  --output-file="SourceSansPro-It-greek.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes="U+0370-03FF, U+1F00-1FFF" &&
+
+pyftsubset\
+  "SourceSansPro-Bold.ttf" \
+  --output-file="SourceSansPro-Bold-greek.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes="U+0370-03FF, U+1F00-1FFF" &&
+
+pyftsubset\
+  "SourceSansPro-BoldIt.ttf" \
+  --output-file="SourceSansPro-BoldIt-greek.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes="U+0370-03FF, U+1F00-1FFF"  &&
+
+pyftmerge "DMSans-Regular-all.woff2" "SourceSansPro-Regular-greek.woff2" && mv merged.ttf DMSourceSans-Regular.ttf &&
+pyftmerge "DMSans-Italic-all.woff2" "SourceSansPro-It-greek.woff2" && mv merged.ttf DMSourceSans-Italic.ttf &&
+pyftmerge "DMSans-Bold-all.woff2" "SourceSansPro-Bold-greek.woff2" && mv merged.ttf DMSourceSans-Bold.ttf &&
+pyftmerge "DMSans-BoldItalic-all.woff2" "SourceSansPro-BoldIt-greek.woff2" && mv merged.ttf DMSourceSans-BoldItalic.ttf &&
+
+pyftsubset DMSourceSans-Regular.ttf \
+  --output-file="DMSourceSans-Regular-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset DMSourceSans-Italic.ttf \
+  --output-file="DMSourceSans-Italic-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset DMSourceSans-Bold.ttf \
+  --output-file="DMSourceSans-Bold-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset DMSourceSans-BoldItalic.ttf \
+  --output-file="DMSourceSans-BoldItalic-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize

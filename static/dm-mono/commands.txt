@@ -1,0 +1,48 @@
+pyftsubset DMMono-Light.ttf \
+  --output-file="DMMono-Light-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize  &&
+
+pyftsubset DMMono-LightItalic.ttf \
+  --output-file="DMMono-LightItalic-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize &&
+
+pyftsubset DMMono-Regular.ttf \
+  --output-file="DMMono-Regular-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize  &&
+
+pyftsubset DMMono-Italic.ttf \
+  --output-file="DMMono-Italic-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize  &&
+
+pyftsubset DMMono-Medium.ttf \
+  --output-file="DMMono-Medium-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize  &&
+
+pyftsubset DMMono-MediumItalic.ttf \
+  --output-file="DMMono-MediumItalic-all.woff2" \
+  --flavor=woff2 \
+  --layout-features=* \
+  --unicodes=* \
+  --no-hinting \
+  --desubroutinize 
+

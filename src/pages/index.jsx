@@ -9,6 +9,12 @@ export default () => (
         <Link to="/english-tech-post/">English tech post</Link>
       </li>
       <li>
+        <Link to="/greek-tech-post/">Greek tech post</Link>
+      </li>
+      <li>
+        <Link to="/greek-polytonic-text/">Greek polytonic text</Link>
+      </li>
+      <li>
         <Link to="/phonetic-example/">Phonetic text</Link>
       </li>
     </ul>
